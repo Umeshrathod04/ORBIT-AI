@@ -1,0 +1,22 @@
+.env
+.env.*
+!.env.example
+!.env.*.example
+backend/.venv/
+backend/.packages/
+backend/__pycache__/
+backend/**/*.pyc
+backend/orbit.db
+backend/.pytest_cache/
+frontend/node_modules/
+frontend/.npm-cache/
+frontend/dist/
+*.log
+
+# Local task artifacts and generated files
+work/
+*.tsbuildinfo
+__pycache__/
+.pytest_cache/
+outputs/*.zip
+
